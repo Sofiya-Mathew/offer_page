@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BOGO Offer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="offer-card">
+      <h1>YAY! It's BOGO</h1>
+
+      <!-- Offer Banner 1 -->
+      <div class="offer">
+        <div class="offer-banner" id="offer1">
+          <div class="discount-section">
+            <div class="discount-text">
+              <span class="discount-percentage">30%<br />Off</span>
+            </div>
+          </div>
+          <div class="offer-details">
+            <input type="radio" id="offer1" name="offer-banner" class="offer-radio" />
+            <div class="details-text">
+              <div class="section1">
+                <p>Buy 3 Get 6</p>
+                <div class="discount-sectionToggled">
+                  <span class="discount-percentageToggled">30% Off</span>
+                </div>
+              </div>
+              <div class="section2">
+                <p class="price">$36.00 USD</p>
+                <div class="extra-content">
+                  <div class="selectors">
+                    <div class="selector">
+                      <label for="size1">Size</label>
+                      <select id="size1">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                      </select>
+                    </div>
+                    <div class="selector">
+                      <label for="color1">Colour</label>
+                      <select id="color1">
+                        <option value="Black">Black</option>
+                        <option value="Red">Red</option>
+                        <option value="Blue">Blue</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Offer Banner 2 -->
+      <div class="offer">
+        <div class="offer-banner" id="offer2">
+          <div class="discount-section">
+            <div class="discount-text">
+              <span class="discount-percentage">30%<br />Off</span>
+            </div>
+          </div>
+          <div class="offer-details">
+            <input type="radio" id="offer2" name="offer-banner" class="offer-radio" />
+            <div class="details-text">
+              <div class="section1">
+                <p>Buy 3 Get 6</p>
+                <div class="discount-sectionToggled">
+                  <span class="discount-percentageToggled">30% Off</span>
+                </div>
+              </div>
+              <div class="section2">
+                <p class="price">$36.00 USD</p>
+                <div class="extra-content">
+                  <div class="selectors">
+                    <div class="selector">
+                      <label for="size2">Size</label>
+                      <select id="size2">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                      </select>
+                    </div>
+                    <div class="selector">
+                      <label for="color2">Colour</label>
+                      <select id="color2">
+                        <option value="Black">Black</option>
+                        <option value="Red">Red</option>
+                        <option value="Blue">Blue</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Offer Banner 3 -->
+      <div class="offer">
+        <div class="offer-banner default-active" id="offer3">
+          <div class="discount-section">
+            <div class="discount-text">
+              <span class="discount-percentage">10% Off</span>
+            </div>
+          </div>
+          <div class="offer-details">
+            <input type="radio" id="offer3" name="offer-banner" class="offer-radio" checked />
+            <div class="details-text">
+              <div class="section1">
+                <p>Buy 3 Get 6</p>
+                <div class="discount-sectionToggled">
+                  <span class="discount-percentageToggled">10% Off</span>
+                </div>
+              </div>
+              <div class="section2">
+                <p class="price">$36.00 USD<span class="strike">$40.00 USD</span></p>
+                <div class="extra-content active">
+                  <div class="selectors">
+                    <div class="selector">
+                      <label for="size3">Size</label>
+                      <select id="size3">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                      </select>
+                    </div>
+                    <div class="selector">
+                      <label for="color3">Colour</label>
+                      <select id="color3">
+                        <option value="Black">Black</option>
+                        <option value="Red">Red</option>
+                        <option value="Blue">Blue</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="delivery-total-container">
+        <p class="delivery">Free Delivery</p>
+        <p class="total">Total: $18.00 USD</p>
+      </div>
+      <button class="add-to-cart">+ Add to Cart</button>
+      <p class="powered">Powered by <span class="poweredSec2">Pumper</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
